@@ -10,17 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/ts-plugin": "^1.10.4",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.1.0",
-    "astro": "^5.5.6",
-    "sharp": "^0.33.5",
-    "tailwindcss": "^4.1.0"
+    "@astrojs/ts-plugin": "catalog:",
+    "@tailwindcss/typography": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "astro": "catalog:",
+    "sharp": "catalog:",
+    "tailwindcss": "catalog:"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^8.29.0",
-    "daisyui": "^5.0.11",
-    "eslint": "^9.23.0",
-    "eslint-plugin-astro": "^1.3.1"
+    "@typescript-eslint/parser": "catalog:",
+    "daisyui": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-astro": "catalog:"
   }
 }
