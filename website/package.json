@@ -7,17 +7,21 @@
     "build": "astro build",
     "preview": "astro preview",
     "lint": "eslint \"src/**/*.{ts,astro}\"",
-    "astro": "astro"
+    "astro": "astro",
+    "start": "node --experimental-strip-types server.ts"
   },
   "dependencies": {
     "@astrojs/ts-plugin": "catalog:",
+    "@hono/node-server": "^1.14.0",
     "@tailwindcss/typography": "catalog:",
     "@tailwindcss/vite": "catalog:",
     "astro": "catalog:",
+    "hono": "^4.7.5",
     "sharp": "catalog:",
     "tailwindcss": "catalog:"
   },
   "devDependencies": {
+    "@types/node": "^22.13.17",
     "@typescript-eslint/parser": "catalog:",
     "daisyui": "catalog:",
     "eslint": "catalog:",
