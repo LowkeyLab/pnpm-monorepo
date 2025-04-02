@@ -1,13 +1,8 @@
 import { Hono } from 'hono';
 import { serve } from '@hono/node-server';
 import { serveStatic } from '@hono/node-server/serve-static';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 
 // Get the directory name
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
 // Create Hono app
 const app = new Hono();
 
