@@ -12,16 +12,16 @@
   },
   "dependencies": {
     "@astrojs/ts-plugin": "catalog:",
-    "@hono/node-server": "^1.14.0",
+    "@hono/node-server": "catalog:",
     "@tailwindcss/typography": "catalog:",
     "@tailwindcss/vite": "catalog:",
     "astro": "catalog:",
-    "hono": "^4.7.5",
+    "hono": "catalog:",
     "sharp": "catalog:",
     "tailwindcss": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "^22.13.17",
+    "@types/node": "catalog:",
     "@typescript-eslint/parser": "catalog:",
     "daisyui": "catalog:",
     "eslint": "catalog:",

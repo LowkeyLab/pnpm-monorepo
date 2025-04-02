@@ -3,12 +3,15 @@ packages:
   - website
 catalog:
   "@astrojs/ts-plugin": ^1.10.4
+  "@hono/node-server": ^1.14.0
   "@tailwindcss/typography": ^0.5.16
   "@tailwindcss/vite": ^4.1.0
+  "@types/node": ^22.13.17
   "@typescript-eslint/parser": ^8.29.0
   astro: ^5.5.6
   daisyui: ^5.0.11
   eslint: ^9.23.0
   eslint-plugin-astro: ^1.3.1
+  hono: ^4.7.5
   sharp: ^0.33.5
   tailwindcss: ^4.1.0
