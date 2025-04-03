@@ -1,6 +1,7 @@
 packages:
   - elections-tracker
   - website
+  - book-arena
 catalog:
   "@astrojs/ts-plugin": ^1.10.4
   "@hono/node-server": ^1.14.0
