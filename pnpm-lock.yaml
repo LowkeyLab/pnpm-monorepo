@@ -76,8 +76,8 @@ catalogs:
       specifier: 3.1.1
       version: 3.1.1
     '@vitest/coverage-v8':
-      specifier: 3.1.1
-      version: 3.1.1
+      specifier: 3.1.2
+      version: 3.1.2
     astro:
       specifier: ^5.5.6
       version: 5.5.6
@@ -88,8 +88,8 @@ catalogs:
       specifier: ^0.30.2
       version: 0.30.6
     drizzle-orm:
-      specifier: ^0.42.0
-      version: 0.42.0
+      specifier: ^0.40.0
+      version: 0.40.1
     eslint:
       specifier: ^9.18.0
       version: 9.23.0
@@ -162,7 +162,7 @@ importers:
     dependencies:
       drizzle-orm:
         specifier: 'catalog:'
-        version: 0.42.0(gel@2.0.1)(postgres@3.4.5)
+        version: 0.40.1(gel@2.0.1)(postgres@3.4.5)
       postgres:
         specifier: 'catalog:'
         version: 3.4.5
@@ -229,7 +229,7 @@ importers:
         version: 3.1.1(playwright@1.51.1)(vite@6.2.4(@types/node@22.13.17)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))(vitest@3.1.1)
       '@vitest/coverage-v8':
         specifier: 'catalog:'
-        version: 3.1.1(@vitest/browser@3.1.1)(vitest@3.1.1)
+        version: 3.1.2(@vitest/browser@3.1.1)(vitest@3.1.1)
       drizzle-kit:
         specifier: 'catalog:'
         version: 0.30.6
@@ -1733,11 +1733,11 @@ packages:
       webdriverio:
         optional: true
 
-  '@vitest/coverage-v8@3.1.1':
-    resolution: {integrity: sha512-MgV6D2dhpD6Hp/uroUoAIvFqA8AuvXEFBC2eepG3WFc1pxTfdk1LEqqkWoWhjz+rytoqrnUUCdf6Lzco3iHkLQ==}
+  '@vitest/coverage-v8@3.1.2':
+    resolution: {integrity: sha512-XDdaDOeaTMAMYW7N63AqoK32sYUWbXnTkC6tEbVcu3RlU1bB9of32T+PGf8KZvxqLNqeXhafDFqCkwpf2+dyaQ==}
     peerDependencies:
-      '@vitest/browser': 3.1.1
-      vitest: 3.1.1
+      '@vitest/browser': 3.1.2
+      vitest: 3.1.2
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
@@ -2199,8 +2199,8 @@ packages:
     resolution: {integrity: sha512-U4wWit0fyZuGuP7iNmRleQyK2V8wCuv57vf5l3MnG4z4fzNTjY/U13M8owyQ5RavqvqxBifWORaR3wIUzlN64g==}
     hasBin: true
 
-  drizzle-orm@0.42.0:
-    resolution: {integrity: sha512-pS8nNJm2kBNZwrOjTHJfdKkaU+KuUQmV/vk5D57NojDq4FG+0uAYGMulXtYT///HfgsMF0hnFFvu1ezI3OwOkg==}
+  drizzle-orm@0.40.1:
+    resolution: {integrity: sha512-aPNhtiJiPfm3qxz1czrnIDkfvkSdKGXYeZkpG55NPTVI186LmK2fBLMi4dsHpPHlJrZeQ92D322YFPHADBALew==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -2210,7 +2210,7 @@ packages:
       '@neondatabase/serverless': '>=0.10.0'
       '@op-engineering/op-sqlite': '>=2'
       '@opentelemetry/api': ^1.4.1
-      '@planetscale/database': '>=1.13'
+      '@planetscale/database': '>=1'
       '@prisma/client': '*'
       '@tidbcloud/serverless': '*'
       '@types/better-sqlite3': '*'
@@ -3767,6 +3767,9 @@ packages:
 
   std-env@3.8.1:
     resolution: {integrity: sha512-vj5lIj3Mwf9D79hBkltk5qmkFI+biIKWS2IBxEyEU3AX1tUf7AoL8nSazCOiiqQsGKIq01SClsKEzweu34uwvA==}
+
+  std-env@3.9.0:
+    resolution: {integrity: sha512-UGvjygr6F6tpH7o2qyqR6QYpwraIjKSdtzyBdyytFOHmPZY917kwdwLG0RbOjWOnKmnm3PeHjaoLLMie7kPLQw==}
 
   storybook@8.6.12:
     resolution: {integrity: sha512-Z/nWYEHBTLK1ZBtAWdhxC0l5zf7ioJ7G4+zYqtTdYeb67gTnxNj80gehf8o8QY9L2zA2+eyMRGLC2V5fI7Z3Tw==}
@@ -5691,7 +5694,7 @@ snapshots:
       - utf-8-validate
       - vite
 
-  '@vitest/coverage-v8@3.1.1(@vitest/browser@3.1.1)(vitest@3.1.1)':
+  '@vitest/coverage-v8@3.1.2(@vitest/browser@3.1.1)(vitest@3.1.1)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -5702,7 +5705,7 @@ snapshots:
       istanbul-reports: 3.1.7
       magic-string: 0.30.17
       magicast: 0.3.5
-      std-env: 3.8.1
+      std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
       vitest: 3.1.1(@types/debug@4.1.12)(@types/node@22.13.17)(@vitest/browser@3.1.1)(jiti@2.4.2)(jsdom@26.0.0)(lightningcss@1.29.2)(yaml@2.7.1)
@@ -6235,7 +6238,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.42.0(gel@2.0.1)(postgres@3.4.5):
+  drizzle-orm@0.40.1(gel@2.0.1)(postgres@3.4.5):
     optionalDependencies:
       gel: 2.0.1
       postgres: 3.4.5
@@ -8075,6 +8078,8 @@ snapshots:
   stackback@0.0.2: {}
 
   std-env@3.8.1: {}
+
+  std-env@3.9.0: {}
 
   storybook@8.6.12(prettier@3.5.3):
     dependencies:
