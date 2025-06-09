@@ -76,8 +76,8 @@ catalogs:
       specifier: 3.2.2
       version: 3.2.2
     '@vitest/coverage-v8':
-      specifier: 3.2.2
-      version: 3.2.2
+      specifier: 3.2.3
+      version: 3.2.3
     astro:
       specifier: ^5.5.6
       version: 5.5.6
@@ -229,7 +229,7 @@ importers:
         version: 3.2.2(playwright@1.51.1)(vite@6.2.4(@types/node@22.13.17)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.1))(vitest@3.1.1)
       '@vitest/coverage-v8':
         specifier: 'catalog:'
-        version: 3.2.2(@vitest/browser@3.2.2)(vitest@3.1.1)
+        version: 3.2.3(@vitest/browser@3.2.2)(vitest@3.1.1)
       drizzle-kit:
         specifier: 'catalog:'
         version: 0.31.1
@@ -1669,11 +1669,11 @@ packages:
       webdriverio:
         optional: true
 
-  '@vitest/coverage-v8@3.2.2':
-    resolution: {integrity: sha512-RVAi5xnqedSKvaoQyCTWvncMk8eYZcTTOsLK7XmnfOEvdGP/O/upA0/MA8Ss+Qs++mj0GcSRi/whR0S5iBPpTQ==}
+  '@vitest/coverage-v8@3.2.3':
+    resolution: {integrity: sha512-D1QKzngg8PcDoCE8FHSZhREDuEy+zcKmMiMafYse41RZpBE5EDJyKOTdqK3RQfsV2S2nyKor5KCs8PyPRFqKPg==}
     peerDependencies:
-      '@vitest/browser': 3.2.2
-      vitest: 3.2.2
+      '@vitest/browser': 3.2.3
+      vitest: 3.2.3
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
@@ -5343,7 +5343,7 @@ snapshots:
       - utf-8-validate
       - vite
 
-  '@vitest/coverage-v8@3.2.2(@vitest/browser@3.2.2)(vitest@3.1.1)':
+  '@vitest/coverage-v8@3.2.3(@vitest/browser@3.2.2)(vitest@3.1.1)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -5940,7 +5940,7 @@ snapshots:
 
   esbuild-register@3.6.0(esbuild@0.25.2):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       esbuild: 0.25.2
     transitivePeerDependencies:
       - supports-color
